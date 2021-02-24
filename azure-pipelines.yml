@@ -26,5 +26,7 @@ stages:
       inputs:
         command: build
         dockerfile: '$(Build.SourcesDirectory)/app/Dockerfile'
+        containerRegistry: dockerhub-personal
+        repository: learning-azure-devops
         tags: |
           $(tag)
