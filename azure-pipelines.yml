@@ -27,6 +27,6 @@ stages:
         command: buildAndPush
         dockerfile: '$(Build.SourcesDirectory)/app/Dockerfile'
         containerRegistry: dockerhub-personal
-        repository: learning-azure-devops
+        repository: willgant1986/learning-azure-devops
         tags: |
           $(tag)
